@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="icon" href="https://spontaneous-florentine-0db811.netlify.app/img/logo%202.png">
+  
+</head>
+<body>
+ 
+  <div class="wrapper">
+    <img src="https://spontaneous-florentine-0db811.netlify.app/img/logo%201.png" width="90px" alt="">
+    <h1 style="font-size: 20px;">Enter your Password</h1>
+    <p>If you don't have a password you should subscribe to drospy <a href="subscribe.html">From here</a></p>
+<input type="password" id="password" placeholder="Enter Password">
+<br>
+<br>
+<button onclick="checkPassword()">Connect</button>
+<p id="message"></p>
+</div>
+
+  <style>
+
+
+
+    body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #EDEDED;
+}
+
+input[type="password"] {
+    padding: 8px;
+    margin: 10px;
+    font-size: 16px;
+}
+.wrapper { 
+      position: absolute; 
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      max-width: 350px; 
+      width: 100%; 
+      background: #fff; 
+      padding: 25px; 
+      border-radius: 5px; 
+      box-shadow: 4px 4px 2px
+          rgb(201, 201, 201); 
+  }
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+</style>
+
+<script src="app.js"></script>
+
+</body>
+</html>
